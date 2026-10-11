@@ -1,0 +1,15 @@
+SUPER CASTLEVANIA IV HD WEB — MODO SIN CONEXIÓN
+
+IMPORTANTE
+Esta versión queda preparada para jugar sin internet DESPUÉS de una primera apertura con conexión. Los navegadores no permiten instalar un Service Worker desde un HTML abierto directamente como archivo (file://), así que el paquete debe publicarse/abrirse desde una dirección HTTPS segura para preparar la caché offline.
+
+PASOS
+1. Mantén juntos estos archivos: Super_Castlevania_IV_HD_Web.html, sw.js, manifest.webmanifest, icon-192.png e icon-512.png.
+2. Publica esa carpeta en un alojamiento HTTPS (o sírvela desde localhost en un computador).
+3. Abre el HTML desde esa dirección con internet. En Android, usa el menú del navegador para “Instalar aplicación” o “Añadir a pantalla de inicio”, si aparece.
+4. Selecciona tu ROM compatible de SNES y espera a que el juego cargue completamente. El emulador guarda sus recursos en la caché local.
+5. Cierra y vuelve a abrir el juego en modo avión para comprobar que funcione sin conexión.
+
+La ROM no viene incluida por derechos de autor. Debes seleccionar tu propio archivo .smc o .sfc (también admite los formatos que ya aceptaba la versión original). La ROM elegida se guarda en el almacenamiento del navegador del dispositivo.
+
+Nota: los recursos del emulador se almacenan de manera progresiva al iniciar el juego con internet; no se puede garantizar el modo offline hasta que el juego haya terminado de cargar al menos una vez. No borres los datos del sitio/navegador, porque eso puede eliminar la caché y la ROM guardada.
